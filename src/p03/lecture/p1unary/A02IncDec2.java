@@ -1,6 +1,6 @@
 package p03.lecture.p1unary;
 
-public class A02IncDec {
+public class A02IncDec2 {
 	public static void main(String[] args) {
 //		증가 연산자
 //		++ : 변수에 1더한 값을 다시 변수에 할당
