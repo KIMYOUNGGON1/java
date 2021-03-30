@@ -1,6 +1,6 @@
 package p03.textbook.exercise;
 
-public class Exercise4 {
+public class Exercise04 {
 	public static void main(String[] args) {
 		int pencils = 534;
 		int student = 30;
