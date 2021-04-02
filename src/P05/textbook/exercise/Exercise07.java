@@ -4,18 +4,43 @@ import java.util.Arrays;
 
 public class Exercise07 {
 	public static void main(String[] args) {
-		int max = 0;
+		int max= Integer.MIN_VALUE;
+		int min= Integer.MAX_VALUE;
+		
+		
 		
 		int[] array = {1, 5, 3, 8, 2};
 		
-		int max1 = max;
+		System.out.println("최대값");
+		max = array[0];
 		
-		System.out.println("max : " + max1);
+		for (int i = 1; i < array.length; i++) {
+			if(array[i] > max) {
+				max = array[i];
+			}
+		}
+		
+		System.out.println("최소값");
+        min = array[0];
+		
+		for (int i = 1; i < array.length; i++) {
+			if(array[i] < min) {
+				min = array[i];
+			}
+		}
+		
+		System.out.println("합계");
+		int plus = 0;
+		for (int i = 0; i < array.length; i++) {
+			plus += array[i];
+		}
+		
+		System.out.println("평균");
+		double divide = plus / (double) array.length;
+				
+		System.out.println("max : " + max);
+		System.out.println("min : " + min);
+		System.out.println("plus : " + plus);
+		System.out.println("avg : " + divide);
 	}
-	
-	public static int max1(int[] array ) {
-		Arrays.sort(array);
-		int s = array[array.length-1];
-	}
-	return s;
 }
