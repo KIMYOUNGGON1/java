@@ -1,5 +1,7 @@
 package P05.textbook.exercise;
 
+import java.util.Arrays;
+
 public class Exercise07 {
 	public static void main(String[] args) {
 		int max = 0;
@@ -12,12 +14,8 @@ public class Exercise07 {
 	}
 	
 	public static int max1(int[] array ) {
-		int a = array[0];
-		for (int i = 0; i < array.length; i++) {
-			if (array[i] > a) {
-				a = array[i];
-			}
-		}
-		return a; 
+		Arrays.sort(array);
+		int s = array[array.length-1];
 	}
+	return s;
 }
