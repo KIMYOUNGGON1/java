@@ -18,21 +18,30 @@ public class A31MartixSum {
 				{0, 1, 2},
 		};
 		
-		int[][] mat3 = sum(mat1, mat2);
-	
-		System.out.println("mat3:" + Arrays.toString(mat3));
+		int[][] mat3 = sum2(mat1, mat2);
 		
 		for (int[] row : mat3) {
 			System.out.println(Arrays.toString(row));
-			
+		}
+	}
+	
+	private static int[][] sum2(int[][] a, int[][] b) {
+		int[][] c = new int[a.length][];
+		
+		for (int i = 0; i < c.length; i++) {
+			c[i] = new int[a[i].length];
+			for (int j = 0; j < c[i].length; j++) {
+				c[i][j] = a[i][j] + b[i][j];
+			}
 		}
 		
-		
+		return c;
 	}
 
 	private static int[][] sum(int[][] a, int[][] b) {
-		int[][] c = new int[4][3];
+		int[][] c = new int[a.length][a[0].length]; // 수정해야함...
 		
+		// 코드 작성....
 		for (int i = 0; i < c.length; i++) {
 			for (int j = 0; j < c[i].length; j++) {
 				c[i][j] = a[i][j] + b[i][j];
@@ -42,3 +51,19 @@ public class A31MartixSum {
 		return c;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
