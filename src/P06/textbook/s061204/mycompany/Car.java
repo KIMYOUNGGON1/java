@@ -9,5 +9,7 @@ public class Car {
 	Engine engin = new Engine();
 	SnowTire tire1 = new SnowTire();
 	BigWidthTire tire2 = new BigWidthTire();
-	sec1
+	
+	P06.textbook.s061204.hankook.Tire tire3 = new P06.textbook.s061204.hankook.Tire();
+	P06.textbook.s061204.kumho.Tire tire4 = new P06.textbook.s061204.kumho.Tire();
 }
