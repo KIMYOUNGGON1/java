@@ -1,5 +1,5 @@
 package P07.lecture.p5final;
 
-public class Childe extends Parent {
+public final class Childe extends Parent {
 
 }
