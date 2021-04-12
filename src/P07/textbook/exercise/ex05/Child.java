@@ -1,10 +1,13 @@
 package P07.textbook.exercise.ex05;
 
-public class Child extends Parent{
+import P07.textbook.exercise.ex05.Parent;
+
+public class Child extends Parent {
+
 	private int studentNo;
 	
 	public Child(String name, int studentNo) {
-		Super.parent(name);
+		super(name);
 		this.studentNo = studentNo;
-//	}
+	}
 }
