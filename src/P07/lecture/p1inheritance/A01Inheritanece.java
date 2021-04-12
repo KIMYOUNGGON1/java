@@ -1,4 +1,4 @@
-package P07.lecture;
+package P07.lecture.p1inheritance;
 
 public class A01Inheritanece {
 	// 상속 : 상속받는 클래스는 상속하는 클래스의 멤버를 갖는다.

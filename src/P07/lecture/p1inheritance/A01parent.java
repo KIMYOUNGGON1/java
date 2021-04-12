@@ -1,4 +1,4 @@
-package P07.lecture;
+package P07.lecture.p1inheritance;
 
 public class A01parent {
 	
