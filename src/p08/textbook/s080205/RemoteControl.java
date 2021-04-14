@@ -16,4 +16,7 @@ public interface RemoteControl {
 			System.out.println("무음 해제합니다.");
 		}
 	}
+	static void ChangeBattey() {
+		System.out.println("건전지를 교환합니다.");
+	}
 }
