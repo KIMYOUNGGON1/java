@@ -188,9 +188,12 @@ public class A01RegularExpression {
 		System.out.println(Pattern.matches(regex1, str6));
 		
 		regex1 = "[가-힣]+";
-		str1 = "김";
+		str1 = "김이박쵴ㅋㅋㅋㅋㅋㅋ";
 		System.out.println(Pattern.matches(regex1, str1));
 		
+		regex1 = "\\p{IsHangul}+";
+		str1="김이박쵴ㅋㅋㅋ";
+		System.out.println(Pattern.matches(regex1, str1));
 	}
 	
 }
