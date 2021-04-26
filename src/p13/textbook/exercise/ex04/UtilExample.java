@@ -1,6 +1,6 @@
 package p13.textbook.exercise.ex04;
 
-import p13.textbook.exercise.ex04.Util;
+import p13.textbook.exercise.ex04.pair;
 
 public class UtilExample {
 	public static void main(String[] args) {
@@ -11,5 +11,6 @@ public class UtilExample {
 		pair<Integer, String> pair2 = new pair<>(99, "java");
 		String name = Util.getValue(pair2, 99);
 		System.out.println(name);
+		
 	}
 }
