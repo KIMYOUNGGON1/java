@@ -12,13 +12,4 @@ public class Util {
 		return null;
 	}
 
-	public static <K, V>V getValue(ChildPair<K, V> childPair, K string) {
-		K key = childPair.getKey();
-		
-		if (key.equals(string)) {
-			return.childPair.getValue();
-		}
-		return null;
-	}
-	
 }
